@@ -16,7 +16,6 @@ import Typography from '@material-ui/core/Typography';
 import DialogContent from '@material-ui/core/DialogContent';
 import { makeStyles } from '@material-ui/core/styles';
 import SnoozeIcon from "@material-ui/icons/Snooze";
-import AddCircleIcon from '@material-ui/icons/AddCircle';
 import DeleteForeverIcon from '@material-ui/icons/DeleteForever';
 import AccessTimeIcon from '@material-ui/icons/AccessTime';
 import citylist from '../cities.json'
