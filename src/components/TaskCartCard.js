@@ -7,7 +7,6 @@ import Dialog from '@material-ui/core/Dialog';
 import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
 
-import Chip from '@material-ui/core/Chip';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
@@ -67,10 +66,6 @@ const TaskCartCard = (props) => {
 
   const handleClose = () => {
     setOpen(false);
-  };
-
-  const style={
-    backgroundColor: 'green',
   };
 
   const disabled = () => {

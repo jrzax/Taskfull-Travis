@@ -1,9 +1,8 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 
 // Custom
 import TasksFeed from '../components/TasksFeed';
 import NavBar from '../components/NavBar';
-import TaskCart from '../components/TaskCart';
 import { TasksProvider } from '../components/TasksContext';
 
 const Home = ({user}) => {

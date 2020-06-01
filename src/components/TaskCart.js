@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react';
+import React, { useContext } from 'react';
 import {TasksContext} from './TasksContext';
 import TaskCartCard from '../components/TaskCartCard';
 import { makeStyles } from '@material-ui/core/styles';
@@ -17,7 +17,6 @@ const TaskCart = ({ user }) => {
     
       });
     
-    const classes = cartStyles();
 
     if (tasks.filter(t => t.status === 'in-progress' && t.acceptedBy == user.uid).length === 0) {
         return (

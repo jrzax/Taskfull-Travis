@@ -1,6 +1,5 @@
-import React, { useState, useContext } from 'react';
+import React from 'react';
 import '../App.css';
-import {TasksContext} from './TasksContext'
 
 // Material UI
 import Dialog from '@material-ui/core/Dialog';
@@ -22,7 +21,6 @@ import citylist from '../cities.json'
 // Select
 import Select from 'react-select';
 
-var list = [];
 
 const options = [
     { value: 'physical', label: 'Physical' },
