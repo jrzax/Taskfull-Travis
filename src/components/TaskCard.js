@@ -7,7 +7,6 @@ import Dialog from '@material-ui/core/Dialog';
 import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
 
-import Chip from '@material-ui/core/Chip';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
@@ -58,10 +57,6 @@ const TaskCard = (props) => {
     db.child('tasks/' + myTask.id + '/acceptedByEmail/').set(user.email);
     db.child('users/' + user.uid + '/to_do/' + myTask.id).set('in-progress');
   }
-  
-  const style={
-    backgroundColor: 'green',
-  };
 
   const useStyles = makeStyles({
     root: {
