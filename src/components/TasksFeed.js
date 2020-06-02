@@ -100,7 +100,7 @@ const TasksFeed = ({ user }) => {
       marginBottom: 12,
     },
     BUTTON: {
-      backgroundColor: 'purple',
+      backgroundColor: 'red',
       color:'white',
     }
   });
