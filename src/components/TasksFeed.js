@@ -100,7 +100,7 @@ const TasksFeed = ({ user }) => {
       marginBottom: 12,
     },
     BUTTON: {
-      backgroundColor: '#3f51b5',
+      backgroundColor: 'purple',
       color:'white',
     }
   });
@@ -254,7 +254,7 @@ const TasksFeed = ({ user }) => {
           size="large"
           onClick={() => setFormOpen(true)}
           startIcon={<AddIcon />}
-          style={{backgroundColor: '#3f51b5', color:'white'}}
+          style={{backgroundColor: '#', color:'white'}}
         >
           Add New Task
         </Button>
